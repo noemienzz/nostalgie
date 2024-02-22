@@ -1,0 +1,44 @@
+.marcellus-sc-regular {
+    font-family: "Marcellus SC", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .manrope-sc-regular {
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  body {
+    padding: 0 24px;
+    margin: 0;
+    height: 100vh;
+    font-family: "Manrope";
+  }
+  h1 {
+    align-items:center;
+    font-family: "Marcellus SC";
+  
+  }
+#games{
+    background-color: #1A1A1A;
+    padding: 50px;
+}
+
+.text{
+    color:aliceblue;
+    padding:50px;
+}
+img{
+    filter: grayscale(100%);
+    filter: blur(1px);
+}
+img:hover {
+    filter: grayscale(0%);
+    filter: blur(0px);
+  }
+button{
+    border-radius: 50px!important;
+
+}
