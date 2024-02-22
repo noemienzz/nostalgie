@@ -5,12 +5,12 @@ body {
 .debut-page { 
     display: flex;
     flex-direction: column;
-    margin-bottom: 10em;
+    margin-bottom: 5em;
 
 }
 
 .titre { 
-    font-size: 1.5em;
+    font-size: 2.5em;
     font-family: "Marcellus SC", serif;
     font-weight: 400;
     font-style: normal;
@@ -19,15 +19,99 @@ body {
    
 .description-titre {
     text-align: center;
-    font-size : 1em;
+    font-size : 1.1em;
   font-family: "Manrope", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 200;
-  margin-left: 15em;
-  margin-right: 15em;
+  font-weight: 500;
+  margin-left: 20em;
+  margin-right: 20em;
 }
 
 .premiere-presentation {
     display: flex;
+    flex-direction: row;
+    margin-left: 15em;
+    margin-right: 15em;
+}
+
+.prenom {
+    font-family: "Marcellus SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+    font-size: 30px;
+}
+
+.texte-presentation {
+    text-align: left;
+    font-size : 20px;
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+    margin-right: 5em;
+    margin-top: 1em;
+}
+
+.deuxieme-presentation { 
+    display: flex;
+    flex-direction: row;
+    margin-left: 15em;
+    margin-right: 15em;
+    margin-top: 5em;
+    }
+
+
+.naika {
+    font-family: "Marcellus SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+    font-size: 30px;
+}
+
+.info-naika {
+    text-align: left;
+    font-size : 20px;
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+    margin-right:1em;
+    margin-top: 1em;
+}
+
+.nostalgie-c-quoi {
+    margin-top: 5em;
+    display: flex;
     flex-direction: column;
+}
+
+.titre-partie-trois {
+    font-size: 2.5em;
+    font-family: "Marcellus SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+
+.mot-key {
+    display: flex;
+    flex-direction: column;
+    margin-right: 25em;
+    margin-left: 25em;
+
+}
+
+.haut {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content:space-between;
+}
+
+.haut p {
+    font-family: "Inter", sans-serif;
+    font-size: 1.2em;
+    font-weight: "Bold";
+    
+    
 }
