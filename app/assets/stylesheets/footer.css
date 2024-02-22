@@ -1,0 +1,12 @@
+.down-nav{
+    background-color: #131313;
+    color:white;
+    display:flex;
+    justify-content: flex-end;
+}
+
+.down-nav a{
+    text-decoration: none;
+    color:white;
+}
+
