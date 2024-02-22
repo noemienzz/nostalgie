@@ -1,7 +1,15 @@
 <p style="color: green"><%= notice %></p>
 
 <!--<%= render @game %>-->
-<img src="<%= @game.image%>">
+
+<!-- Tu n'as plus qu'à mettre en page avec un fichier css, 
+tous les éléments RUBY sont séparés en éléments html -->
+
+<img class="col-4"src="<%= @game.image%>">
+<h1><%= @game.titre%></h1>
+<p><%= @game.description%></p>
+<p><%= @game.developpeur%></p>
+<p><%= @game.date%></p>
 
 <div>
   <%= link_to "Edit this game", edit_game_path(@game) %> |
