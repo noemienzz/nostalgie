@@ -1,18 +1,22 @@
 <p style="color: green"><%= notice %></p>
+<link href="app/assets/stylesheets/show.css">
 
-<!--<%= render @game %>-->
-
-<!-- Tu n'as plus qu'à mettre en page avec un fichier css, 
-tous les éléments RUBY sont séparés en éléments html -->
-
+<div class="toute-la-page">
 <img class="col-4"src="<%= @game.image%>">
-<h1><%= @game.titre%></h1>
-<p><%= @game.description%></p>
-<p><%= @game.developpeur%></p>
-<p><%= @game.date%></p>
+<div class="cote-image-gauche">
+</div>
 
-<div>
+<div class="cote-texte-droit">
+<h1><%= @game.titre%></h1>
+<p class="description"><%= @game.description%></p>
+<p class="developpeur"><%= @game.developpeur%></p>
+<p class="date"><%= @game.date%></p>
+</div>
+</div>
+
+<div class="edit">
   <%= link_to "Edit this game", edit_game_path(@game) %> |
+
   <%= link_to "Back to games", games_path %>
 
   <%= button_to "Destroy this game", @game, method: :delete %>
