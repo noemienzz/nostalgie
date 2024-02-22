@@ -5,4 +5,15 @@
 .link a{
     color:rgb(255, 255, 255);
   }
-  
+
+.top{
+    margin-bottom: 100px;
+    background-image: url('/app/assets/images/fond.svg');
+}
+img{
+    filter: grayscale(100%) blur(2px);
+}
+img:hover {
+    filter: grayscale(0%) blur(0px);
+
+  }
