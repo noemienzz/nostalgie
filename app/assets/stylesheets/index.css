@@ -13,9 +13,16 @@
     background-image: url('/app/assets/images/fond.svg');
 }
 img{
-    filter: grayscale(100%) blur(2px);
+    filter: grayscale(100%) blur (2px);
 }
 img:hover {
     filter: grayscale(0%) blur(0px);
 
   }
+
+.contenu {
+    display:flex;
+    flex-direction: row;
+    background-color: green;
+
+}

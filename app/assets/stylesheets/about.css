@@ -83,6 +83,7 @@ body {
     margin-top: 5em;
     display: flex;
     flex-direction: column;
+    margin-bottom: 5em;
 }
 
 .titre-partie-trois {
@@ -105,13 +106,19 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    justify-content:space-between;
 }
 
 .haut p {
-    font-family: "Inter", sans-serif;
-    font-size: 1.2em;
-    font-weight: "Bold";
-    
+    margin-left: 1em;
+    margin-right: 1em;
+    font-size : 1.2em;
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+
     
 }
+
+.haut p:hover {
+    color: orange;
+} 
