@@ -6,16 +6,16 @@
 
 <div id="games" class="container-fluid">
   <div class="text">
-<p class="text-center description presentation">Explorez les jeux-vidéo de votre enfance sur notre site dédié aux classiques des années 1990-2010.</p>
-<p class="text-center description">Plongez dans la nostalgie des titres emblématiques qui ont marqué cette époque. Que vous soyez un gamer passionné ou un joueur occasionnel, revivez la magie des pixels et des aventures qui ont marqué toute une génération.</p>
+<p class="text-center description-debut presentation">Explorez les jeux-vidéo de votre enfance sur notre site dédié aux classiques des années 1990-2010.</p>
+<p class="text-center description-debut">Plongez dans la nostalgie des titres emblématiques qui ont marqué cette époque. Que vous soyez un gamer passionné ou un joueur occasionnel, revivez la magie des pixels et des aventures qui ont marqué toute une génération.</p>
 
 
 </div>
 
   <% @games.each do |game| %>
     <!--<%= render game %>-->
-    <div class="row justify-content-center bg-image ">
-    <img class=" col-sm-6" src="<%= game.image %>">
+    <div class="row justify-content-center">
+    <img class=" col-sm-6 filtre" src="<%= game.image %>">
     <p class="text-center link">
       <%= link_to game.titre, game %>
       
