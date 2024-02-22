@@ -43,3 +43,14 @@ body {
 .edit {
     margin-left: 50em;
 }
+
+.destroy {
+    margin-left : 52em;
+    margin-top: 0.9em;
+    margin-bottom: 5em;
+}
+
+.edit:hover {
+    color:orange;
+}
+
