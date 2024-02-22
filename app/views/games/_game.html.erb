@@ -1,29 +1,31 @@
 
 <div id="<%= dom_id game %>" class="contenu">
-  <p>
-    <strong>Titre:</strong>
-    <%= game.titre %>
-  </p>
+    <a href="/app/assets/stylesheets/index.css">
+        <div class="cote-image">
+            <img src="<%= game.image %>" alt="image du jeu <%= game.titre %>">
+        </div>
 
-  <p>
-    <strong>Date:</strong>
-    <%= game.date %>
-  </p>
+        <div class="cote-texte">
+            <div class="titre">
+                <p><strong>Titre:</strong> <%= game.titre %> </p>
+            </div>
 
-  <p>
-    <strong>Developpeur:</strong>
-    <%= game.developpeur %>
-  </p>
+            <div class="description">
+                <p><strong>Description:</strong> <%= game.description %> </p>
+            </div>
 
-  <p>
-    <strong>Image:</strong>
-  </p>
-<div class="row justify-content-center">
-<img src="<%=game.image%>" alt="image du jeu <%=game.titre%>"> 
+            <div class="date">
+                <p><strong>Date:</strong> <%= game.date %> </p>
+            </div>
+
+            <div class="dev">
+                <p><strong>Developpeur:</strong> <%= game.developpeur %> </p>
+            </div>
+
+            <div class="img">
+                <p><strong>Image:</strong> <%= game.image %> </p>
+            </div>
+        </div>
+    </a>
 </div>
-  <p>
-    <strong>Description:</strong>
-    <%= game.description %>
-  </p>
 
-</div>
