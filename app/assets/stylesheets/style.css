@@ -38,14 +38,6 @@ p {font-size: medium;}
     color:aliceblue;
     padding:50px;
 }
-img{
-    filter: grayscale(100%);
-    filter: blur(1px);
-}
-img:hover {
-    filter: grayscale(0%);
-    filter: blur(0px);
-  }
 button{
     border-radius: 50px!important;
     border:none;
