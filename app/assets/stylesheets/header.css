@@ -19,6 +19,8 @@ li {
     justify-content: flex-end;
     height:10%;
     margin-bottom: 50px;
+    border-bottom: solid 1px ;
+    border-color: #8a8a8a;
   }
 
   .top-nav a{
@@ -32,3 +34,5 @@ li {
   .top-nav a:active{
     text-decoration: underline;
   }
+
+  
