@@ -3,29 +3,29 @@
 </p>
 
 
-<div class=bon-affichage-max>
+<div class="bon-affichage-max">
 
   <div class="toute-la-page">
-    <img class="col-4" src="<%= @game.image %>">
     <div class="cote-image-gauche">
-
-    </div>
-
-    <div class="cote-texte-droit">
-      <h1>
-        <%= @game.titre%>
-      </h1>
-      <p class="description-un">
-        <%= @game.description%>
-      </p>
-      <p class="developpeur">
-        <%= @game.developpeur%>
-      </p>
-      <p class="date">
-        <%= @game.date%>
-      </p>
+      <img class="colonne"src="<%= @game.image%>">
     </div>
   </div>
+
+  <div class="cote-texte-droit">
+    <h1>
+      <%= @game.titre%>
+    </h1>
+    <p class="description-un">
+      <%= @game.description%>
+    </p>
+    <p class="developpeur">
+      <%= @game.developpeur%>
+    </p>
+    <p class="date">
+      <%= @game.date%>
+    </p>
+  </div>
+</div>
 
   <div class="edit">
     <%= link_to "Edit this game" , edit_game_path(@game) %> |
