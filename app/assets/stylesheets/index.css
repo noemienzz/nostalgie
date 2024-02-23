@@ -46,10 +46,13 @@
 }
 .sous-titre{
     font-size: xx-large;
-    margin-bottom: 2em;
+    margin-bottom: 1em;
 }
 
 .link {
     margin-bottom: 3em;
 }
 
+.link:hover {
+    color: grey;
+}
