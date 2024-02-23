@@ -21,6 +21,7 @@ li {
     border-bottom: solid 1px ;
     border-color: #8a8a8a;
     padding: 2px;
+    background-color: white;
 
   
   }
@@ -36,3 +37,14 @@ li {
   .top-nav a:active{
     text-decoration: underline;
   }
+
+.top-nav img {
+    margin-right: auto;
+    margin-bottom: 0.5em;
+  }
+
+.top-nav ul {
+    margin-top:10px;
+  }
+
+ 
