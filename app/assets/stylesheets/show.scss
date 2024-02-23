@@ -1,34 +1,9 @@
 
 
-.toute-la-page {
-    display: flex;
-    flex-direction: row;
-    margin-right: 3em;
-    margin-left: 3em;
-    justify-content: center;
-    margin-top: 5em;
-    margin-bottom: 5em;
-}
-
 body {
     margin: 0;
 }
 
-.colonne {
-    object-fit: cover;
-    max-width: 50%;
-    width:50%;
-}
-.cote-texte-droit h1 {
-    font-size: 5em;
-    margin-bottom: 0.5em;
-    
-}
-
-.description-un {
-    font-size: 1.5em;
-    margin-right: 14em;
-}
 
 .developpeur {
     font-size: 1.1em;
@@ -39,11 +14,6 @@ body {
     font-size: 1.1em;
 }
 
-.cote-texte-droit {
-    margin-top: 4em;
-    margin-left: 1em;
-    width:50%;
-}
 
 .edit {
     text-align:center;
@@ -59,14 +29,11 @@ body {
     color:orange;
 }
 
-.bon-affichage-max {
-    max-width: 100%;
+
+.color{
+    filter:grayscale(0%) blur(0px);
 }
-    
-.cote-image-gauche{
-    display: flex;
-    justify-content: end;
-    width: 50%;
-} 
 
-
+.commandes{
+    margin-top: 3em;
+}
