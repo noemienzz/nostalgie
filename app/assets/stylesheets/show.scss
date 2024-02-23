@@ -29,9 +29,13 @@ body {
     color:orange;
 }
 
-
+.info-image{
+    display: flex;
+    justify-content: end;
+}
 .color{
     filter:grayscale(0%) blur(0px);
+    max-width:70%;
 }
 
 .commandes{
