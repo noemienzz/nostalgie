@@ -2,37 +2,25 @@
   <%= notice %>
 </p>
 
-
-<div class="bon-affichage-max">
-
-  <div class="toute-la-page">
-    <div class="cote-image-gauche">
-      <img class="colonne"src="<%= @game.image%>">
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 ">
+      <img class="img-fluid color" src="https://cdn.discordapp.com/attachments/1008571195345608704/1210288320752521236/mmibordeaux_illustrate_the_main_character_of_the_video-games_su_d5e12a4b-e4a7-4f81-a757-159e5f79022d.png?ex=65ea03d5&is=65d78ed5&hm=1df566a54bb3261e7362e93406b57c6b89948f220d819fdac94a7cc84c4ffb51&">
+    </div>
+    <div class="col-md-6 infos">
+      <h1><%= @game.titre%></h1>
+      <p class="description-un"><%= @game.description%></p>
+      <p class="developpeur"><%= @game.developpeur%></p>
+      <p class="date"><%= @game.date%></p>
     </div>
   </div>
-
-  <div class="cote-texte-droit">
-    <h1>
-      <%= @game.titre%>
-    </h1>
-    <p class="description-un">
-      <%= @game.description%>
-    </p>
-    <p class="developpeur">
-      <%= @game.developpeur%>
-    </p>
-    <p class="date">
-      <%= @game.date%>
-    </p>
-  </div>
-</div>
-
-  <div class="edit">
-    <%= link_to "Edit this game" , edit_game_path(@game) %> |
-
+  <div class="commandes">
+    <div class="edit">
+      <%= link_to "Edit this game" , edit_game_path(@game) %> |
       <%= link_to "Back to games" , games_path %>
-  </div>
-  <div class="destroy">
-    <%= button_to "Destroy this game" , @game, method: :delete %>
+    </div>
+    <div class="destroy">
+      <%= button_to "Destroy this game" , @game, method: :delete %>
+    </div>
   </div>
 </div>
