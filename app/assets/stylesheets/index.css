@@ -35,3 +35,10 @@
     filter: grayscale(0%) blur(0px);
 
   }
+
+.gros-titre{
+    font-size: 80px;
+}
+.sous-titre{
+    font-size: xx-large;
+}
