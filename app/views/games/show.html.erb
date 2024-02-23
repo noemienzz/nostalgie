@@ -1,28 +1,38 @@
-<p style="color: green"><%= notice %></p>
+<p style="color: green">
+  <%= notice %>
+</p>
 
 
 <div class=bon-affichage-max>
 
-<div class="toute-la-page">
-<img class="col-4"src="<%= @game.image%>">
-<div class="cote-image-gauche">
-  
-</div>
+  <div class="toute-la-page">
+    <img class="col-4" src="<%= @game.image %>">
+    <div class="cote-image-gauche">
 
-<div class="cote-texte-droit">
-<h1><%= @game.titre%></h1>
-<p class="description-un"><%= @game.description%></p>
-<p class="developpeur"><%= @game.developpeur%></p>
-<p class="date"><%= @game.date%></p>
-</div>
-</div>
+    </div>
 
-<div class="edit">
-  <%= link_to "Edit this game", edit_game_path(@game) %> |
-
-  <%= link_to "Back to games", games_path %>
+    <div class="cote-texte-droit">
+      <h1>
+        <%= @game.titre%>
+      </h1>
+      <p class="description-un">
+        <%= @game.description%>
+      </p>
+      <p class="developpeur">
+        <%= @game.developpeur%>
+      </p>
+      <p class="date">
+        <%= @game.date%>
+      </p>
+    </div>
   </div>
-<div class="destroy">
-  <%= button_to "Destroy this game", @game, method: :delete %>
-</div>
+
+  <div class="edit">
+    <%= link_to "Edit this game" , edit_game_path(@game) %> |
+
+      <%= link_to "Back to games" , games_path %>
+  </div>
+  <div class="destroy">
+    <%= button_to "Destroy this game" , @game, method: :delete %>
+  </div>
 </div>
