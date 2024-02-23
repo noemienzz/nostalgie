@@ -14,10 +14,10 @@
     margin-bottom: 100px;
     background-image: url('/app/assets/images/fond.svg');
 }
-img{
-    filter: grayscale(100%) blur (2px);
+.filtre img{
+    filter: grayscale(100%) blur(2px)!important;
 }
-img:hover {
+.filtre img:hover {
     filter: grayscale(0%) blur(0px);
 
   }
@@ -33,3 +33,4 @@ img:hover {
     font-size:x-large;
     margin-right: 0;
 }
+
