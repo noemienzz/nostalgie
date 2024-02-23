@@ -51,8 +51,9 @@ a {
 }
 
 a:hover{
-  text-decoration: none;
-  color:#1A1A1A;
+  text-decoration: underline;
+  color:#818181;
+  
 }
 
 body{
