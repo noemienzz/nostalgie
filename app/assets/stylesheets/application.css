@@ -13,3 +13,9 @@
  *= require_tree .
  *= require_self
  */
+@import "footer.css";
+@import "about.css";
+@import "header.css";
+@import "index.css";
+@import "show.css";
+@import "style.css";
