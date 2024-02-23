@@ -6,15 +6,16 @@ body {
 .debut-page {
     display: flex;
     flex-direction: column;
-    margin-bottom: 5em;
+    margin-bottom: 3em;
 }
 
 .abouut {
-    font-size: 4em;
+    font-size: 2.5em;
     font-family: "Marcellus SC", serif;
     font-weight: 400;
     font-style: normal;
     text-align: center;
+    margin-top: 3em;
 }
 
 .description-titre {
@@ -34,12 +35,16 @@ body {
     margin-right: 15em;
 }
 
-.prenom {
+.noemie {
     font-family: "Marcellus SC", serif;
     font-weight: 400;
     font-style: normal;
     text-align: left;
     font-size: 30px;
+}
+
+.info-noemie {
+    font-size: 20px;
 }
 
 .texte-presentation {
@@ -86,7 +91,7 @@ body {
     margin-bottom: 5em;
 }
 
-.titre-partie-trois {
+.titre-troiis {
     font-size: 2.5em;
     font-family: "Marcellus SC", serif;
     font-weight: 400;
@@ -120,5 +125,5 @@ body {
 }
 
 .haut p:hover {
-    color: orange;
+    color:gray;
 }
