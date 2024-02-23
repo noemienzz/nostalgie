@@ -14,13 +14,7 @@
     margin-bottom: 100px;
     background-image: url('/app/assets/images/fond.svg');
 }
-.filtre img{
-    filter: grayscale(100%) blur(2px)!important;
-}
-.filtre img:hover {
-    filter: grayscale(0%) blur(0px);
 
-  }
 
 .contenu {
     display:flex;
@@ -34,3 +28,17 @@
     margin-right: 0;
 }
 
+.img-fluid{
+    filter: grayscale(100%) blur(2px);
+}
+.img-fluid:hover {
+    filter: grayscale(0%) blur(0px);
+
+  }
+
+.gros-titre{
+    font-size: 80px;
+}
+.sous-titre{
+    font-size: xx-large;
+}
