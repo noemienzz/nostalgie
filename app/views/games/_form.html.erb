@@ -1,3 +1,5 @@
+<div class="formulaire-new-game">
+
 <%= form_with(model: game) do |form| %>
   <% if game.errors.any? %>
     <div style="color: red">
@@ -11,27 +13,27 @@
     </div>
   <% end %>
 
-  <div>
+  <div class="form-titre">
     <%= form.label :titre, style: "display: block" %>
     <%= form.text_field :titre %>
   </div>
 
-  <div>
+  <div class="form-date">
     <%= form.label :date, style: "display: block" %>
     <%= form.date_field :date %>
   </div>
 
-  <div>
+  <div class="form-developpeur">
     <%= form.label :developpeur, style: "display: block" %>
     <%= form.text_field :developpeur %>
   </div>
 
-  <div>
+  <div class="form-image">
     <%= form.label :image, style: "display: block" %>
     <%= form.text_area :image %>
   </div>
 
-  <div>
+  <div class="form-description">
     <%= form.label :description, style: "display: block" %>
     <%= form.text_area :description %>
   </div>
@@ -40,3 +42,5 @@
     <%= form.submit %>
   </div>
 <% end %>
+
+</div>
