@@ -41,11 +41,11 @@ body {
 }
 
 .edit {
-    margin-left: 50em;
+    text-align:center;
 }
 
 .destroy {
-    margin-left : 52em;
+    text-align: center;
     margin-top: 0.9em;
     margin-bottom: 5em;
 }
@@ -54,3 +54,7 @@ body {
     color:orange;
 }
 
+.bon-affichage-max {
+    max-width: 100%;
+    max-height: 100%;
+}
