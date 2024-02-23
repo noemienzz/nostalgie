@@ -13,19 +13,23 @@
 .top{
     margin-bottom: 100px;
     background-image: url('/app/assets/images/fond.svg');
+    
 }
 
+.body {
+    background-image: url("/app/assets/images/fond.svg");
 
+}
 .contenu {
     display:flex;
     flex-direction: row;
-    background-color: green;
 
 }
 
 .description-debut{
     font-size:x-large;
     margin-right: 0;
+    margin-bottom:1em;
 }
 
 .img-fluid{
@@ -38,7 +42,14 @@
 
 .gros-titre{
     font-size: 80px;
+    margin-top: 2em;
 }
 .sous-titre{
     font-size: xx-large;
+    margin-bottom: 2em;
 }
+
+.link {
+    margin-bottom: 3em;
+}
+
